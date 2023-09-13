@@ -21,24 +21,20 @@
         </ul>
       </nav>
       <ul class="navbar-items">
-        <li class="header-icon-email">
-          <a href="">
-            <svg class="icon-email" width="16px" height="12px">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-          </a>
+        <li class="header-icon-email-tel">
+          <svg class="icon-email" width="16px" height="12px">
+            <use href="./images/icons.svg#icon-email-header"></use>
+          </svg>
+
           <a class="email item-navbar" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
 
-        <li class="header-icon-tel">
-          <a href="">
-            <svg class="icon-tel" width="16px" height="12px">
-              <use href="./images/icons.svg#icon-tel"></use>
-            </svg>
-          </a>
-          <a class="tel item-navbar icon-emails" href="tel:+525555296000"
-            ><span>+52 55 5529 6000 </span></a
-          >
+        <li class="header-icon-email-tel">
+          <svg class="icon-tel" width="10px" height="16px">
+            <use href="./images/icons.svg#icon-tel"></use>
+          </svg>
+
+          <a class="tel item-navbar icon-emails" href="tel:+525555296000">+52 55 5529 6000 </a>
         </li>
       </ul>
     </header>
@@ -417,10 +413,15 @@
             ></textarea>
           </div>
           <div class="terms-and-conditions">
-            <a class="square" href="#">
-              <input class="checkbox" type="checkbox" width="16px" height="15px" />
+            <input class="checkbox" type="checkbox" width="16px" height="15px" id="checked" />
+            <a href="#" class="square">
+              <svg class="icon-modal-re" width="11px" height="8px">
+                <use href="./images/icons.svg#icon-vector-re"></use>
+              </svg>
             </a>
-            <p>Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
+            <label for="checked">
+              Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+            </label>
           </div>
           <div class="div-send">
             <input class="send" type="submit" value="Enviar" />
