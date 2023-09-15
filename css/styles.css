@@ -192,7 +192,7 @@ header {
 
 section.solution {
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/img-hero.png);
+    url(../images/img-hero-min-1.png);
   background-size: 100%, 160rem;
   background-position: bottom center;
   background-repeat: no-repeat;
