@@ -12,30 +12,31 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="header container">
+    <header id="menu" class="header container">
       <a class="logo skyblue-color" href="./index.html">WebStudio</a>
       <nav class="navbar">
-        <ul class="navbar-items">
-          <li><a class="item-navbar" href="./index.html">Estudio</a></li>
-          <li><a class="item-navbar current" href="./portfolio.html">Portafolio</a></li>
+        <ul class="navbar-items nav-ul">
+          <li><a class="item-navbar current" href="./index.html">Estudio</a></li>
+          <li><a class="item-navbar" href="./portfolio.html">Portafolio</a></li>
           <li><a class="item-navbar contact" href="#">Contactos</a></li>
         </ul>
       </nav>
       <ul class="navbar-items">
-        <li class="header-icon-email-tel">
-          <svg class="icon-email" width="16px" height="12px">
-            <use href="./images/icons.svg#icon-email-header"></use>
-          </svg>
-
-          <a class="email item-navbar" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li>
+          <a class="email item-navbar header-icon-email-tel" href="mailto:info@devstudio.com">
+            <svg class="icon-email" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-email-header"></use>
+            </svg>
+            <span>info@devstudio.com</span>
+          </a>
         </li>
-
         <li class="header-icon-email-tel">
-          <svg class="icon-tel" width="10px" height="16px">
-            <use href="./images/icons.svg#icon-tel"></use>
-          </svg>
-
-          <a class="tel item-navbar icon-emails" href="tel:+525555296000">+52 55 5529 6000 </a>
+          <a class="tel item-navbar icon-emails header-icon-email-tel" href="tel:+525555296000"
+            ><svg class="icon-tel" width="10px" height="16px">
+              <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+            <span>+52 55 5529 6000</span>
+          </a>
         </li>
       </ul>
     </header>

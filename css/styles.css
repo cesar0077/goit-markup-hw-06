@@ -142,8 +142,9 @@ header {
   margin-right: 5rem;
 }
 
-.header-icon-email-tel a:nth-child(2) {
-  margin-left: 1rem;
+.header-icon-email-tel .icon-email,
+.header-icon-email-tel .icon-tel {
+  margin-right: 1rem;
 }
 
 .header-icon-email-tel:hover,
